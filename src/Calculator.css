@@ -1,0 +1,63 @@
+.calc-body{
+  background-color: black;
+  width:450px;
+  margin: auto;
+  height: 78vh;
+  font-size: 1.3em;
+  font-weight: 500;
+
+}
+
+ .calc-body input{
+  color: rgb(245, 164, 13);
+  font: 900;
+  background-color: inherit;
+  border: none;
+  font-family: 'Orbitron', sans-serif;
+  text-align: right;
+}
+
+#last-input{
+  color: white;
+}
+
+.operators{
+  background-color: rgb(102, 96, 96);
+}
+
+.operands{
+  background-color: rgb(82, 79, 79);
+}
+
+.reset-start{
+  background-color: rgb(187, 15, 15);
+  color: white;
+}
+
+.equals-to{
+  background-color: rgb(19, 41, 102);
+  color:white;
+}
+
+.operation-body button{
+  color: white;
+  transition: transform 200ms ease-in-out;
+}
+
+.operation-body{
+  /* background-color: red; */
+  height: 85%;
+  margin: 8px;
+}
+
+.operation-body button:hover{
+ transform:scale(0.98);
+ color:black;
+ border:1px solid white
+}
+
+.input-show{
+  /* margin-bottom: -5px; */
+  /* background-color: blanchedalmond; */
+}
+
